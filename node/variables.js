@@ -20,7 +20,17 @@ obj.a = 9;
 // For Practice
 
 // declare an object with an object as a property
+let testVar = {
+    a: {
+        a: "str"
+    },
+    b: "foo"  
+}
+console.log(testVar)
 
 // delete a property
+delete testVar.a
+console.log(testVar)
 
 // change a property
+testVar.b = "bar"
